@@ -16,12 +16,6 @@ thumbnail:
 	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCTrDEMcQsl4NRwwfx4sDBhTl3nbeJ9WsQ" type="text/javascript">
 	</script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/gmaps.js/0.4.25/gmaps.min.js"></script>
-	<style type="text/css">
-    #map {
-      width: 400px;
-      height: 400px;
-    }
-  	</style>
 {% endraw %}
 
 #### 回憶　####
@@ -47,6 +41,12 @@ $(function () {
 });
 </script>
 <div id="map" style="margin-top: -20px;margin-bottom: 10px;"></div>
+<style type="text/css">
+    #map {
+      width: 400px;
+      height: 400px;
+    }
+</style>
 <script type="text/javascript">
 	var map = new GMaps({
 		el: '#map',
